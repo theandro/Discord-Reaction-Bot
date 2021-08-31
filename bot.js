@@ -4,6 +4,6 @@ const settings = require("./settings.json")
 
 client.on("message", message => {
 
-    if(message.channel.id === "id") return message.react(":react:id")
+    if(message.channel.id === "id") return message.react(":react-name:id")
 }) 
 client.login(settings.token)
