@@ -6,5 +6,4 @@ client.on("message", message => {
 
     if(message.channel.id === "id") return message.react(":react:id")
 }) 
-client.user.setGame('nyan❤andro')
 client.login(settings.token)
